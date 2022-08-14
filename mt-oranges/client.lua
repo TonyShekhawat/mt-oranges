@@ -101,7 +101,7 @@ end)
 ---- Blip no mapa ------------
 
 Citizen.CreateThread(function()
-    local car = Config.CarPedLoc
+    local car = AddBlipForCoord(416.34, 6520.76, 26.72)
 	SetBlipSprite(car, 270)
 	SetBlipDisplay(car, 4)
 	SetBlipScale(car, 0.7)
